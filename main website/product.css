@@ -1,0 +1,34 @@
+/* product.css */
+
+/* Apply general styles to the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  /* Style for table header cells */
+  th {
+    border:1px solid #424242 ;
+    background-color: #f2f2f2;
+    text-align: center; /* Center-align text in header cells */
+    padding: 8px;
+  }
+  
+  /* Style for table data cells */
+  td {
+    border: 1px solid #424242;
+    text-align: center; /* Center-align text in data cells */
+    padding: 8px;
+  }
+  
+  /* Apply alternating row colors to tbody */
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for hover effect on rows */
+  tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  

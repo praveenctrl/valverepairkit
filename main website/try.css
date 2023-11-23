@@ -1,0 +1,117 @@
+.footer {
+    border: 1px solid rgba(255, 255, 255, 0.911);
+    border-left: hidden;
+    border-right: hidden;
+    background-color: #000;
+    
+}
+
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  gap: 2rem;
+  
+}
+
+.footer .box-container .box h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+  padding: 1rem 0;
+}
+
+.footer .box-container .box a {
+  display: block;
+  font-size: 1.5rem;
+  color: var(--light-color);
+  padding: 1rem 0;
+}
+
+.footer .box-container .box a i {
+  padding-right: 0.5rem;
+  color: var(--green);
+}
+
+.footer .box-container .box a:hover i {
+  padding-right: 1rem;
+  color: var(--Soft-Blue);
+
+}
+
+.footer .credit {
+  padding: 1rem;
+  padding-top: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #f1efef;
+  border-top: 0.1rem solid rgba(240, 237, 237, 0.1);
+}
+
+.footer .credit span {
+  color:#603917;
+  cursor: pointer;
+}
+
+.credit{
+    /* border: 1px solid black; */
+    /* background-color: rgba(0, 0, 255, 0.582); */
+}
+
+/* footer section ends */
+
+/* start  redirect button */
+/* Add this CSS to your existing stylesheet or in the <style> tag in your HTML */
+.up-arrow-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  /* background-color: #555; */
+  background-color: var(--Soft-Blue);
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 50px;
+  border-radius: 50%;
+  z-index: 99;
+}
+
+.up-arrow-btn:hover {
+  background-color: #777;
+  /* background-color: var(--Soft-Blue); */
+}
+
+
+
+
+.box1{
+    border-right: 1 px solid black;
+}
+
+.footer .box-container .box{
+    /* border: 1px solid black; */
+    border-right: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+.footer .box-container .box4{
+    border: none;
+    margin-left: 80px;
+}
+
+.footer .box-container .box3{
+    margin-right: 30px;
+    width:350px;
+   
+}
+
+@media (max-width: 650px) {
+    .footer .box-container .box {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+        border-right: hidden;
+  }
+  .footer .box-container .box4{
+    border: none;
+    margin-left: 0px;
+}
+}
